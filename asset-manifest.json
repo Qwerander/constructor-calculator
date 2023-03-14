@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/constructor-calculator/static/css/main.09fe2733.css",
-    "main.js": "/constructor-calculator/static/js/main.385980b3.js",
+    "main.js": "/constructor-calculator/static/js/main.001e2c46.js",
     "static/media/dropField.svg": "/constructor-calculator/static/media/dropField.6a2125b7506894c5b044c661a5b979b5.svg",
     "index.html": "/constructor-calculator/index.html",
     "static/media/dropFieldFull.svg": "/constructor-calculator/static/media/dropFieldFull.293bc91f6d87d6e077c9d17bc221930b.svg",
     "main.09fe2733.css.map": "/constructor-calculator/static/css/main.09fe2733.css.map",
-    "main.385980b3.js.map": "/constructor-calculator/static/js/main.385980b3.js.map"
+    "main.001e2c46.js.map": "/constructor-calculator/static/js/main.001e2c46.js.map"
   },
   "entrypoints": [
     "static/css/main.09fe2733.css",
-    "static/js/main.385980b3.js"
+    "static/js/main.001e2c46.js"
   ]
 }
