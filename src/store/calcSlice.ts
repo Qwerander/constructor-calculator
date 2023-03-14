@@ -25,23 +25,23 @@ export const initialState: CalcStateType = {
     value2: 0,
     result: 0,
     screen: '',
-    operator: null
+    operator: null,
 }
-
 const calcSlice = createSlice({
     name: 'calc',
     initialState,
     reducers: {
         setValue1: (state, action: PayloadAction<{ value: string }>) => {
-            const value = +((state.value1 + action.payload.value).slice(0, 9));
-            state.value1 = value;
-            state.screen = value.toString()
-
+                const value = +((state.value1.toString() + action.payload.value).slice(0, 9));
+                state.value1 = value;
+                state.screen = value.toString()
+            
         },
         setValue2: (state, action: PayloadAction<{ value: string }>) => {
-            const value = +((state.value2 + action.payload.value).slice(0, 9));
-            state.value2 = value;
-            state.screen = value.toString()
+                const value = +((state.value2.toString() + action.payload.value).slice(0, 9));
+                state.value2 = value;
+                state.screen = value.toString()
+    
         },
         setStatus: (state, action: PayloadAction<{ status: CalcValueStatusType }>) => {
             state.status = action.payload.status
