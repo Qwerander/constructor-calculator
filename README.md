@@ -1,5 +1,8 @@
 # https://qwerander.github.io/constructor-calculator/
 
+реализована функция drop-down 
+Элементы калькулятора можно перетаскивать в рабочую зону
+
 ## Available Scripts
 
 In the project directory, you can run:
